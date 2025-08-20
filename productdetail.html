@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product View - Anime Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Anime Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="category.html">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+                <li class="nav-item"><a class="nav-link" href="order_confirmation.html">Order Confirmation</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #594e97;
+            color: #f5f5f5;
+        }
+
+        /* Section Title */
+        .section_title h1 {
+            color: #671eb9;
+            font-weight: 700;
+        }
+
+        /* Product Detail */
+        .product_detail {
+            background: #1c1c1c;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        /* Rating */
+        .rating i {
+            color: #ffcc00;
+        }
+
+        /* Price */
+        .price {
+            font-size: 22px;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+
+        /* Description */
+        .desc {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        /* Buttons */
+        .btn-primary {
+            background-color: #ffcc00;
+            border-color: #ffcc00;
+            font-weight: bold;
+            color: #121212;
+        }
+
+        .btn-primary:hover {
+            background-color: #d4aa00;
+            border-color: #d4aa00;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Product Detail Section -->
+<section class="product_detail py-5 my-5">
+    <div class="container">
+        <div class="section_title text-center mb-5">
+            <h1 class="text-capitalize">Product Detail</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Q8YSsssvmF9mlKdmeNtgvAHaHh&pid=Api&P=0&h=180" class="d-block w-100 img-fluid rounded" alt="Naruto Uzumaki Shirt">
+            </div>
+            <div class="col-md-6">
+                <div class="title mb-4">
+                    <h3>Naruto Uzumaki Shirt</h3>
+                </div>
+                <div class="category mb-4">
+                    <span><a href="category.html">Anime T-Shirts</a></span>
+                </div>
+                <div class="rating d-flex text-danger mb-4">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price mb-4">
+                    <b><span class="mr-1">₹</span><span>799</span></b>
+                </div>
+                <div class="desc mb-4">
+                    <p>Show your love for Naruto Uzumaki with this high-quality anime T-shirt. Perfect for casual wear and anime conventions.</p>
+                </div>
+                <div class="buy">
+                    <a href="cart.html" class="btn btn-primary shadow">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://attackontitanmerch.store/wp-content/uploads/2021/11/Attack-on-Titan-Kageyama-Tobio-Hoodies-Man-High-Quality-Fleece-Sweatshirts-Long-Sleeve-Men-Woman-Pullover.jpg" class="d-block w-100 img-fluid rounded" alt="Attack on Titan hoodie">
+            </div>
+            <div class="col-md-6">
+                <div class="title mb-4">
+                    <h3>Attack on Titan Survey Corps Hoodie</h3>
+                </div>
+                <div class="category mb-4">
+                    <span><a href="category.html">Anime Hoodies</a></span>
+                </div>
+                <div class="rating d-flex text-danger mb-4">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price mb-4">
+                    <b><span class="mr-1">₹</span><span>1299</span></b>
+                </div>
+                <div class="desc mb-4">
+                    <p>Join the Survey Corps in style with this premium quality Attack on Titan hoodie. Perfect for any AOT fan!</p>
+                </div>
+                <div class="buy">
+                    <a href="cart.html" class="btn btn-primary shadow">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="https://m.media-amazon.com/images/I/71aOI8sobLS._AC_UL1500_.jpg" class="d-block w-100 img-fluid rounded" alt="Demon Slayer Tanjiro Shirt">
+            </div>
+            <div class="col-md-6">
+                <div class="title mb-4">
+                    <h3>Demon Slayer Tanjiro Shirt</h3>
+                </div>
+                <div class="category mb-4">
+                    <span><a href="category.html">Anime T-Shirts</a></span>
+                </div>
+                <div class="rating d-flex text-danger mb-4">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price mb-4">
+                    <b><span class="mr-1">₹</span><span>999</span></b>
+                </div>
+                <div class="desc mb-4">
+                    <p>Represent Tanjiro Kamado with this stylish Demon Slayer T-shirt. Soft fabric and high durability for anime lovers.</p>
+                </div>
+                <div class="buy">
+                    <a href="cart.html" class="btn btn-primary shadow">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Anime Store. All Rights Reserved.</p>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Scroll to Top Button Functionality
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            scrollToTopBtn.classList.add("show");
+            scrollToTopBtn.classList.remove("hide");
+        } else {
+            scrollToTopBtn.classList.add("hide");
+            scrollToTopBtn.classList.remove("show");
+        }
+    });
+
+    scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+</script>
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+                  
